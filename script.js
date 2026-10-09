@@ -38,7 +38,7 @@ function calculate(){
     standartClass="C";
     }else if (q1>=224 && q1<=239) {
     standartClass="D (Multicast Address)";
-    }else if (q1>=240 && q1<=225) {
+    }else if (q1>=240 && q1<=255) {
     standartClass="E (Experimental)";
     }else {
     standartClass="Out of range";
