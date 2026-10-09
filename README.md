@@ -19,7 +19,7 @@ Input: four octets (`0–255`) plus a CIDR prefix length (`/0–/32`), validated
 
 The calculation runs entirely on the client: it converts each octet to 8-bit binary, builds the mask from the prefix length, and ANDs/ORs the boundary octet to get the network and broadcast addresses.
 
-The page also includes a light/dark mode toggle and a responsive Bootstrap layout.
+The layout is responsive (Bootstrap).
 
 ## Tech stack
 
@@ -42,7 +42,7 @@ python3 -m http.server 8000
 index.html            # page layout and calculator form
 script.js             # subnet calculation logic
 css/, sass/           # Bootstrap, plugins and site theme
-js/                   # jQuery, Bootstrap, Headroom, Owl Carousel, smooth scroll, dark mode toggle
+js/                   # jQuery, Bootstrap, Headroom, Owl Carousel, smooth scroll
 font/, images/        # icon font and illustrations
 ```
 
